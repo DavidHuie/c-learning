@@ -1,6 +1,6 @@
-CFLAGS=-Wall -g -static
+CFLAGS = -Wall -g -O0
 
 all:
-	cc *.c -o ex4.out
+	cc $(CFLAGS) *.c -o ex4.out
 clean:
 	rm -f ex4.out
